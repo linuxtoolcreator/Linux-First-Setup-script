@@ -3,7 +3,7 @@
 [TR]
 
 Setup script çalıştırılabilir olarak ayarlamak için için ```sudo chmod +x [filename]```
-Çalıştırabilmek içinde ``` sudo ./[file_name.sh]``` yazmanız yeterkidir.
+Çalıştırabilmek içinde ``` sudo ./[file_name.sh]``` yazmanız yeterlidir.
 
 [EN]
 
