@@ -52,10 +52,18 @@ apt --fix-broken install -y
 # .deb Dosyaları temizlenmesi
 rm -f keybase_amd64.deb
 rm -f atom-amd64.deb
+rm -f google-chrome-stable_current_amd64.deb
+rm -f discord-0.0.25.deb
 
 # Ulauncher PW oluşturucu için yükleme gereksinimleri
 apt install python3-pip -y
 pip3 install pwgen
+
+# Genel update / upgrade
+
+apt-get update
+
+apt-get upgrade
 
 # Bitiş
 echo Uygulamalar Başarılı bir şekilde kuruldu. Ancak bir kere yeniden başlaması gerekmektedir...
