@@ -41,12 +41,10 @@ snap install gitkraken
 # .deb dosyaları kurulumu
 dpkg -i keybase_amd64.deb
 dpkg -i atom-amd64.deb
-dpkg -i Minecraft.deb
 apt --fix-broken install -y # Fix Minecraft dependency issue.
 
 # .deb Dosyaları temizlenmesi
 rm -f keybase_amd64.deb
-rm -f Minecraft.deb
 rm -f atom-amd64.deb
 
 # Ulauncher PW oluşturucu için yükleme gereksinimleri
