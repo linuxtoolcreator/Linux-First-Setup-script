@@ -141,9 +141,9 @@ Spotify
 
 gitkraken
 
-__ Installing .deb files installed (dpkg -i)__
+__Installing .deb files installed (dpkg -i)__
 
-__ Cleaning of downloaded and installed .deb files (rm -f)__
+__Cleaning of downloaded and installed .deb files (rm -f)__
 
 # Python installation and update
 
