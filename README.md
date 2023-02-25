@@ -9,3 +9,5 @@ Setup script çalıştırılabilir olarak ayarlamak için için ```sudo chmod +x
 
 To set the setup script as executable ```sudo chmod +x [filename]```
 Just type ``` sudo ./[file_name.sh]``` to run it.
+
+by linux_kernel#6486
