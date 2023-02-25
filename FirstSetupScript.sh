@@ -12,7 +12,6 @@ apt-get update
 # .deb dosyaları alımı
 wget https://prerelease.keybase.io/keybase_amd64.deb
 wget https://atom.io/download/deb/atom-amd64.deb
-wget https://launcher.mojang.com/download/Minecraft.deb
 
 # Repolar kurulumu
 apt-get install adapta-gtk-theme -y
