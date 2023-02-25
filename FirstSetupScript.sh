@@ -12,6 +12,8 @@ apt-get update
 # .deb dosyaları alımı
 wget https://prerelease.keybase.io/keybase_amd64.deb
 wget https://atom.io/download/deb/atom-amd64.deb
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+wget https://dl.discordapp.net/apps/linux/0.0.25/discord-0.0.25.deb
 
 # Repolar kurulumu
 apt-get install adapta-gtk-theme -y
@@ -26,6 +28,8 @@ apt-get install ghostwriter -y
 apt-get install hunspell-en-gb -y # Ghostwriter'a yazım denetimi ekler
 apt-get install gimp -y
 apt-get install plank -y
+apt-get install synaptic-y
+apt-get install openjdk-8-jre-y
 # FlatPack kurulumu ve ayarı
 apt install flatpak
 add-apt-repository ppa:flatpak/stable
@@ -41,7 +45,9 @@ snap install gitkraken
 # .deb dosyaları kurulumu
 dpkg -i keybase_amd64.deb
 dpkg -i atom-amd64.deb
-apt --fix-broken install -y # Fix Minecraft dependency issue.
+dpkg -i google-chrome-stable_current_amd64.deb
+dpkg -i discord-0.0.25.deb
+apt --fix-broken install -y 
 
 # .deb Dosyaları temizlenmesi
 rm -f keybase_amd64.deb
